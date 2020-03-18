@@ -1,3 +1,4 @@
+
 h1 {
   color: #495d63;
   font-family: 'Roboto', sans-serif;
@@ -26,10 +27,15 @@ a {
   color: #8b979b;
   text-decoration: none;
   font-size: 20px;
+  font-weight: bold;
 }
 
 a:hover {
  color: #f45b69;
+}
+
+p {
+  padding-bottom: 20px;
 }
 
 .card {
@@ -42,7 +48,7 @@ a:hover {
 }
 
 .container {
-  width: 600px;   /* This sets the width */
+  width: 900px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
@@ -56,8 +62,50 @@ a:hover {
 
 .list-inline > li {
   display: inline-block;
-  padding: 0px 25px;
+  padding: 20px 20px;
   list-style: none;
-  padding-left: 0px;
+  padding-left: 20px;
 }
 
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.larger-icons {
+  font-size: 35px;
+}
+
+.button {
+  width: 250px;
+  background: #8b979b;
+  border: 3px solid #8b979b;
+  border-radius: 10px ;
+  padding: 10px;
+  margin: 30px auto;
+  color: #f5f7f7;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.button:hover {
+  background-color: #f45b69;
+  color: #f5f7f7;
+  border: 3px solid #f45b69;
+}
