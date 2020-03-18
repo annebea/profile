@@ -1,0 +1,63 @@
+h1 {
+  color: #495d63;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #709f83;
+  font-family: 'Roboto', sans-serif;
+  font-weight: medium;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+body {
+  color: rgb(90, 90, 90);
+  background-color: #dfe1e1;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+a {
+  color: #8b979b;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+ color: #f45b69;
+}
+
+.card {
+  background: #f5f7f7;
+  border: 1px solid #f5f7f7;
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px #c9cbcb;
+  padding: 30px;
+  margin: 25px;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 25px;
+  list-style: none;
+  padding-left: 0px;
+}
+
